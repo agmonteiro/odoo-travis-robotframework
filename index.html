@@ -1,0 +1,356 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Documentação Odoo Brasil - Localização Brasileira &#8212; Documentação Odoo Brasil - Localização Brasileira 2016.10.13 documentation</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootswatch-3.3.6/cosmo/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="_static/oca.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2016.10.13',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="top" title="Documentação Odoo Brasil - Localização Brasileira 2016.10.13 documentation" href="#" />
+    <link rel="next" title="Robot Framework: É o quê mesmo?" href="sobre.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body role="document">
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><span><img src="_static/brazil.png"></span>
+          Documentação Odoo Brasil - Localização Brasileira</a>
+        <span class="navbar-text navbar-version pull-left"><b>2016.10.13</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="sobre.html">Robot Framework: É o quê mesmo?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sobre.html#robot-framework-mas-faz-o-que">Robot Framework: Mas faz o quê?</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+  <li>
+    <a href="sobre.html" title="Next Chapter: Robot Framework: É o quê mesmo?"><span class="glyphicon glyphicon-chevron-right visible-sm"></span><span class="hidden-sm hidden-tablet">Robot Framewo... &raquo;</span>
+    </a>
+  </li>
+              
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 content">
+      
+  <div class="section" id="documentacao-odoo-brasil-localizacao-brasileira">
+<h1>Documentação Odoo Brasil - Localização Brasileira<a class="headerlink" href="#documentacao-odoo-brasil-localizacao-brasileira" title="Permalink to this headline">¶</a></h1>
+<p>Esta é a documentação oficial da localização brasileira e atua também como sistema automação de testes, para mais detalhes acesse o link sobre.</p>
+<div class="section" id="formato-tabular-verbos">
+<h2>Formato Tabular? Verbos?<a class="headerlink" href="#formato-tabular-verbos" title="Permalink to this headline">¶</a></h2>
+<p>Assim:</p>
+<div class="highlight-robotframework"><div class="highlight"><pre><span></span><span class="p">| </span><span class="gh">* Test Cases *</span><span class="p"> | </span><span class="gh">Verbos</span><span class="p">                        | </span><span class="gh">Argumentos</span><span class="p"> | </span><span class="gh">...</span><span class="p">   |</span>
+<span class="p">| </span><span class="gu">Login Válido</span><span class="p">   |                               |            |       |</span>
+<span class="p">|                | </span><span class="nf">Ir para a página de Login</span><span class="p">     |            |       |</span>
+<span class="p">|                | </span><span class="nf">Digitar no Campo</span><span class="p">              | </span><span class="s">Email</span><span class="p">      | </span><span class="s">demo</span><span class="p">  |</span>
+<span class="p">|                | </span><span class="nf">Digitar no Campo</span><span class="p">              | </span><span class="s">Password</span><span class="p">   | </span><span class="s">demo</span><span class="p">  |</span>
+<span class="p">|                | </span><span class="nf">Ativar o Botão</span><span class="p">                | </span><span class="s">Log in</span><span class="p">     |       |</span>
+<span class="p">|                | </span><span class="nf">Identificação do Usuário Será</span><span class="p"> | </span><span class="s">Demo User</span><span class="p">  |       |</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="verbos">
+<h2>Verbos<a class="headerlink" href="#verbos" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-robotframework"><div class="highlight"><pre><span></span><span class="gh">** Keywords **</span><span class="p"></span>
+
+<span class="gu">Ir para a página de login</span><span class="p"></span>
+<span class="p">  </span><span class="nf">Go To</span><span class="p">    </span><span class="s">http://localhost:8069/web/login</span><span class="p"></span>
+<span class="p">  </span><span class="nf">Really Boostrap jQuery</span><span class="p"></span>
+</pre></div>
+</div>
+<img alt="_images/login.png" class="align-center" src="_images/login.png" />
+</div>
+<div class="section" id="id1">
+<h2>Verbos<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="o">|</span>                <span class="o">|</span> <span class="n">Digitar</span> <span class="n">no</span> <span class="n">Campo</span>              <span class="o">|</span> <span class="n">E</span><span class="o">-</span><span class="n">mail</span>     <span class="o">|</span> <span class="n">demo</span>  <span class="o">|</span>
+<span class="o">|</span>                <span class="o">|</span> <span class="n">Digitar</span> <span class="n">no</span> <span class="n">Campo</span>              <span class="o">|</span> <span class="n">Senha</span>      <span class="o">|</span> <span class="n">demo</span>  <span class="o">|</span>
+</pre></div>
+</div>
+<div class="highlight-robotframework"><div class="highlight"><pre><span></span><span class="gh">** Keywords **</span><span class="p"></span>
+
+<span class="gu">Digitar no Campo</span><span class="p"></span>
+<span class="p">  [</span><span class="kn">Arguments</span><span class="p">]    ${</span><span class="nv">name</span><span class="p">}    ${</span><span class="nv">value</span><span class="p">}</span>
+<span class="p">  </span><span class="nf">Input Text</span><span class="p">    </span><span class="s">xpath=//input[@id=( //label[ text()=&#39;</span><span class="p">${</span><span class="nv">name</span><span class="p">}</span><span class="s">&#39; ]/@for )]</span><span class="p"></span>
+<span class="p">  ...           ${</span><span class="nv">value</span><span class="p">}</span>
+</pre></div>
+</div>
+<img alt="_images/label.png" class="align-center" src="_images/label.png" />
+<div class="code html highlight-default"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;form-group field-login&quot;</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">label</span> <span class="k">for</span><span class="o">=</span><span class="s2">&quot;login&quot;</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;control-label&quot;</span><span class="o">&gt;</span><span class="n">E</span><span class="o">-</span><span class="n">mail</span><span class="o">&lt;/</span><span class="n">label</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="nb">input</span> <span class="nb">type</span><span class="o">=</span><span class="s2">&quot;text&quot;</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;login&quot;</span> <span class="nb">id</span><span class="o">=</span><span class="s2">&quot;login&quot;</span><span class="o">&gt;</span>
+<span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id2">
+<h2>Verbos<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<div class="code highlight-default"><div class="highlight"><pre><span></span><span class="o">|</span>                <span class="o">|</span> <span class="n">Ativar</span> <span class="n">o</span> <span class="n">Botão</span>                <span class="o">|</span> <span class="n">Acessar</span>    <span class="o">|</span>       <span class="o">|</span>
+</pre></div>
+</div>
+<div class="highlight-robotframework"><div class="highlight"><pre><span></span><span class="gh">** Keywords **</span><span class="p"></span>
+
+<span class="gu">Ativar o Botão</span><span class="p"></span>
+<span class="p">  [</span><span class="kn">Arguments</span><span class="p">]    ${</span><span class="nv">name</span><span class="p">}</span>
+<span class="p">  </span><span class="nf">Click Button</span><span class="p">    </span><span class="s">xpath=//button[@type=&#39;submit&#39; and text()=&#39;</span><span class="p">${</span><span class="nv">name</span><span class="p">}</span><span class="s">&#39;]</span><span class="p"></span>
+</pre></div>
+</div>
+<img alt="_images/login.png" class="align-center" src="_images/login.png" />
+<div class="code html highlight-default"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">button</span> <span class="nb">type</span><span class="o">=</span><span class="s2">&quot;submit&quot;</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;btn btn-primary&quot;</span><span class="o">&gt;</span><span class="n">Acessar</span><span class="o">&lt;/</span><span class="n">button</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id3">
+<h2>Verbos<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p>Verificando se deu certo...</p>
+<div class="highlight-robotframework"><div class="highlight"><pre><span></span><span class="gh">** Keywords **</span><span class="p"></span>
+
+<span class="gu">Identificação do Usuário Será</span><span class="p"></span>
+<span class="p">  [</span><span class="kn">Arguments</span><span class="p">]    ${</span><span class="nv">UserName</span><span class="p">}</span>
+<span class="p">  ${</span><span class="nv">element_path</span><span class="p">} =    </span><span class="nf">Set Variable</span><span class="p">    </span><span class="s">//span[@class=&quot;oe_topbar_name&quot;]</span><span class="p"></span>
+<span class="p">  </span><span class="nf">Wait Until Page Contains Element</span><span class="p">    </span><span class="s">xpath=</span><span class="p">${</span><span class="nv">element_path</span><span class="p">}</span>
+<span class="p">  </span><span class="nf">Element Text Should Be</span><span class="p">    </span><span class="s">xpath=</span><span class="p">${</span><span class="nv">element_path</span><span class="p">}   ${</span><span class="nv">UserName</span><span class="p">}</span>
+</pre></div>
+</div>
+<img alt="_images/ident-bar.png" class="align-center" src="_images/ident-bar.png" />
+<div class="code html highlight-default"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">a</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;dropdown-toggle&quot;</span> <span class="n">data</span><span class="o">-</span><span class="n">toggle</span><span class="o">=</span><span class="s2">&quot;dropdown&quot;</span> <span class="n">href</span><span class="o">=</span><span class="s2">&quot;#&quot;</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">img</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;oe_topbar_avatar&quot;</span> <span class="n">src</span><span class="o">=</span><span class="s2">&quot;http://localhost:8069/...&quot;</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="n">span</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;oe_topbar_name&quot;</span><span class="o">&gt;</span><span class="n">Demo</span> <span class="n">User</span><span class="o">&lt;/</span><span class="n">span</span><span class="o">&gt;</span>
+<span class="o">&lt;/</span><span class="n">a</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="tirando-selfies">
+<h2>Tirando Selfies<a class="headerlink" href="#tirando-selfies" title="Permalink to this headline">¶</a></h2>
+<p>Página de Login e sua notinha:</p>
+<div class="highlight-robotframework"><div class="highlight"><pre><span></span><span class="gh">** Test Cases **</span><span class="p"></span>
+<span class="gu">Login Form Screenshot</span><span class="p"></span>
+
+<span class="p">  ${</span><span class="nv">login_box</span><span class="p">} =    </span><span class="nf">Set Variable</span><span class="p"></span>
+<span class="p">  ...     </span><span class="s">jquery=div.oe_single_form_container:has(form.oe_login_form)</span><span class="p"></span>
+<span class="p">  ${</span><span class="nv">note</span><span class="p">} =    </span><span class="nf">Add Pointy Note</span><span class="p">    ${</span><span class="nv">login_box</span><span class="p">}</span>
+<span class="p">  ...     </span><span class="s">Formulário de Login</span><span class="p">    </span><span class="s">position=top</span><span class="p"></span>
+
+<span class="p">  </span><span class="nf">Capture and crop page screenshot</span><span class="p">    </span><span class="s">docs/source/_static/imgs/login.png</span><span class="p"></span>
+<span class="p">  ...     ${</span><span class="nv">login_box</span><span class="p">}    ${</span><span class="nv">note</span><span class="p">}</span>
+
+<span class="p">  </span><span class="nf">Remove element</span><span class="p">    ${</span><span class="nv">note</span><span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id4">
+<h2>Tirando Selfies<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p>Campo &#8220;E-mail&#8221; e sua notinha</p>
+<div class="highlight-robotframework"><div class="highlight"><pre><span></span><span class="gh">** Test Cases **</span><span class="p"></span>
+<span class="gu">Login Field Screenshot</span><span class="p"></span>
+<span class="p">  ${</span><span class="nv">label</span><span class="p">} =    </span><span class="nf">Set Variable</span><span class="p">    </span><span class="s">jquery=label[for=&quot;login&quot;]</span><span class="p"></span>
+<span class="p">  ${</span><span class="nv">label_note</span><span class="p">} =    </span><span class="nf">Add Pointy Note</span><span class="p">    ${</span><span class="nv">label</span><span class="p">}</span>
+<span class="p">  ...     </span><span class="s">Label for &quot;E-mail&quot; field</span><span class="p">    </span><span class="s">position=top</span><span class="p"></span>
+
+<span class="p">  ${</span><span class="nv">field</span><span class="p">} =    </span><span class="nf">Set Variable</span><span class="p">    </span><span class="s">id=login</span><span class="p"></span>
+<span class="p">  ${</span><span class="nv">field_note</span><span class="p">} =    </span><span class="nf">Add Pointy Note</span><span class="p">    ${</span><span class="nv">field</span><span class="p">}</span>
+<span class="p">  ...     </span><span class="s">&quot;E-mail&quot; field</span><span class="p">    </span><span class="s">position=right</span><span class="p"></span>
+
+<span class="p">  </span><span class="nf">Capture and crop page screenshot</span><span class="p">    </span><span class="s">docs/source/_static/imgs/label.png</span><span class="p"></span>
+<span class="p">  ...     ${</span><span class="nv">label</span><span class="p">}    ${</span><span class="nv">label_note</span><span class="p">}    ${</span><span class="nv">field</span><span class="p">}    ${</span><span class="nv">field_note</span><span class="p">}</span>
+<span class="p">  </span><span class="nf">Remove elements</span><span class="p">    ${</span><span class="nv">label_note</span><span class="p">}    ${</span><span class="nv">field_note</span><span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id5">
+<h2>Tirando Selfies<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p>Botão de login e sua notinha:</p>
+<div class="highlight-robotframework"><div class="highlight"><pre><span></span><span class="gh">** Test Cases **</span><span class="p"></span>
+<span class="gu">Login Button Screenshot</span><span class="p"></span>
+
+<span class="p">  ${</span><span class="nv">note</span><span class="p">} =    </span><span class="nf">Add Pointy Note</span><span class="p">    </span><span class="s">jquery=button[type=submit]</span><span class="p"></span>
+<span class="p">  ...     </span><span class="s">Botão de Envio</span><span class="p">    </span><span class="s">position=right</span><span class="p"></span>
+
+<span class="p">  </span><span class="nf">Capture and crop page screenshot</span><span class="p">    </span><span class="s">docs/source/_static/imgs/login.png</span><span class="p"></span>
+<span class="p">  ...     </span><span class="s">jquery=button[type=submit]</span><span class="p">    ${</span><span class="nv">note</span><span class="p">}</span>
+
+<span class="p">  </span><span class="nf">Remove element</span><span class="p">    ${</span><span class="nv">note</span><span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id6">
+<h2>Tirando Selfies<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<p>Identidade na toolbar e sua notinha:</p>
+<div class="highlight-robotframework"><div class="highlight"><pre><span></span><span class="gh">** Test Cases **</span><span class="p"></span>
+<span class="gu">Toolbar Identity Screenshot</span><span class="p"></span>
+
+<span class="p">  </span><span class="nf">Login como &quot;demo&quot; com senha &quot;demo&quot;</span><span class="p"></span>
+<span class="p">  ${</span><span class="nv">note</span><span class="p">} =    </span><span class="nf">Add Pointy Note</span><span class="p">    </span><span class="s">jquery=span.oe_topbar_name</span><span class="p"></span>
+<span class="p">  ...     </span><span class="s">Botão p/ Ativar Formulário</span><span class="p">    </span><span class="s">position=bottom</span><span class="p"></span>
+
+<span class="p">  </span><span class="nf">Capture and crop page screenshot</span><span class="p">    </span><span class="s">docs/source/_static/imgs/ident-bar.png</span><span class="p"></span>
+<span class="p">  ...     </span><span class="s">jquery=a.dropdown-toggle:has(span.oe_topbar_name)</span><span class="p"></span>
+<span class="p">  ...     ${</span><span class="nv">note</span><span class="p">}</span>
+
+<span class="p">  </span><span class="nf">Remove element</span><span class="p">    ${</span><span class="nv">note</span><span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="comandos-com-parametros-embutidos">
+<h2>Comandos com parâmetros embutidos<a class="headerlink" href="#comandos-com-parametros-embutidos" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-robotframework"><div class="highlight"><pre><span></span><span class="gh">** Keywords **</span><span class="p"></span>
+
+<span class="gu">Login como &quot;</span><span class="p">${</span><span class="nv">username</span><span class="p">}</span><span class="gu">&quot; com senha &quot;</span><span class="p">${</span><span class="nv">password</span><span class="p">}</span><span class="gu">&quot;</span><span class="p"></span>
+<span class="p">  </span><span class="nf">Ir para a página de Login</span><span class="p"></span>
+<span class="p">  </span><span class="nf">Input Text</span><span class="p">        </span><span class="s">id=login</span><span class="p">       ${</span><span class="nv">username</span><span class="p">}</span>
+<span class="p">  </span><span class="nf">Input Password</span><span class="p">    </span><span class="s">id=password</span><span class="p">    ${</span><span class="nv">password</span><span class="p">}</span>
+<span class="p">  </span><span class="nf">Click Button</span><span class="p">      </span><span class="s">xpath=//button[@type=&#39;submit&#39;]</span><span class="p"></span>
+<span class="p">  </span><span class="nf">Wait Until Page Contains Element</span><span class="p"></span>
+<span class="p">  ...     </span><span class="s">xpath=//span[@class=&quot;oe_topbar_name&quot;]</span><span class="p"></span>
+<span class="p">  ...     </span><span class="s">timeout=30</span><span class="p"></span>
+<span class="p">  </span><span class="nf">Really Boostrap jQuery</span><span class="p"></span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="e-de-onde-vieram-esses-outros-comandos">
+<h2>E de onde vieram esses outros comandos?<a class="headerlink" href="#e-de-onde-vieram-esses-outros-comandos" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-robotframework"><div class="highlight"><pre><span></span><span class="gh">** Settings **</span><span class="p">          </span><span class="gh">Valores</span><span class="p"></span>
+
+<span class="kn">Library</span><span class="p">                 </span><span class="nn">Selenium2Library</span><span class="p"></span>
+<span class="kn">Library</span><span class="p">                 </span><span class="nn">Selenium2Screenshots</span><span class="p"></span>
+<span class="kn">Suite Setup</span><span class="p">             </span><span class="nf">Abrir Browser no Login</span><span class="p"></span>
+<span class="kn">Test Setup</span><span class="p">              </span><span class="nf">Login Test Setup</span><span class="p"></span>
+<span class="kn">Suite TearDown</span><span class="p">          </span><span class="nf">Close All Browsers</span><span class="p"></span>
+
+<span class="gh">** Variables **</span><span class="p">    </span><span class="gh">Valores</span><span class="p"></span>
+<span class="p">${</span><span class="nv">SPEED</span><span class="p">}           </span><span class="s">0.</span><span class="p"></span>
+
+<span class="gh">** Keywords **</span><span class="p"></span>
+
+<span class="gu">Abrir Browser no Login</span><span class="p"></span>
+<span class="p">  </span><span class="nf">Set Selenium Speed</span><span class="p">      ${</span><span class="nv">SPEED</span><span class="p">}</span>
+<span class="p">  </span><span class="nf">Open Browser</span><span class="p">    </span><span class="s">http://localhost:8069/web/login</span><span class="p">    </span><span class="s">browser=chrome</span><span class="p"></span>
+
+<span class="gu">Login Test Setup</span><span class="p"></span>
+<span class="p">  </span><span class="nf">Ir para a página de Login</span><span class="p"></span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="comandos-para-consertar-bugs">
+<h2>Comandos para consertar bugs...<a class="headerlink" href="#comandos-para-consertar-bugs" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-robotframework"><div class="highlight"><pre><span></span><span class="gh">** Keywords **</span><span class="p"></span>
+
+<span class="gu">Really Boostrap jQuery</span><span class="p"></span>
+<span class="p">  </span><span class="nf">Bootstrap jQuery</span><span class="p"></span>
+<span class="p">  </span><span class="nf">Wait Until Keyword Succeeds</span><span class="p">    </span><span class="s">20</span><span class="p">    </span><span class="s">1 sec</span><span class="p"></span>
+<span class="p">  ...    </span><span class="s">JQuery Is Loaded</span><span class="p"></span>
+
+<span class="gu">JQuery Is Loaded</span><span class="p"></span>
+<span class="p">  ${</span><span class="nv">jQueryType</span><span class="p">} =    </span><span class="nf">Execute javascript</span><span class="p">    </span><span class="s">return typeof(window.jQuery);</span><span class="p"></span>
+<span class="p">  </span><span class="nf">Should Be Equal</span><span class="p">    </span><span class="s">function</span><span class="p">    ${</span><span class="nv">jQueryType</span><span class="p">}</span>
+</pre></div>
+</div>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="sobre.html">Robot Framework: É o quê mesmo?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sobre.html#robot-framework-mas-faz-o-que">Robot Framework: Mas faz o quê?</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+        <br/>
+        
+<div id="sourcelink">
+  <a href="_sources/index.txt"
+     rel="nofollow">Source</a>
+</div>
+      
+    </p>
+    <p>
+        &copy; Copyright 2016, Odoo Brasil.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.8.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
